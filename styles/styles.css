@@ -10,7 +10,7 @@ header {
   height: 600px;
   margin: 60px auto 120px;
   background-image: url('assets/banner/banner.png');
-  background-blend-mode: screen;
+  
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  /* background-color: #1a1a1a; */
+ 
 }
 .header-container {
   padding: 185px;
