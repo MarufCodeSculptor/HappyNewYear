@@ -18,7 +18,7 @@ header {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
 }
 .header-container {
   padding: 185px;
