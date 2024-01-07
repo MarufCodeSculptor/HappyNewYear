@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+/* HEADER STYLES */
+header {
+  width: 1320px;
+  height: 600px;
+  margin: 60px auto 120px;
+  background-image: url("/assets/banner/banner.png");
+  background-blend-mode: screen;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+}
+.header-container {
+  padding: 185px;
+}
+.header-container p {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather Sans";
+  font-size: 32px;
+  margin: 0;
+}
+.header-container h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  line-height: 95px;
+  margin: 0;
+}
+/*----------------------------------- festive-wishes-section--------------- */
+.festive-wishes-perent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.festive-wishes-perent h2 {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 88px;
+  margin: 0px 0px 48px 0px;
+  padding: 0;
+}
+
+.festive-wishes-perent h3 {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0px 0px 48px 0px;
+  padding: 0;
+}
+.festive-wishes-perent p {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 24px;
+  margin-bottom: 16;
+  padding: 0;
+}
+/*----------------------------------- festive-wishes-section  ENDED--------------- */
+/* ------------------------------night wishes start---------------- */
+.midle-width {
+  width: 1320px;
+  height: 600px;
+  border-radius: 5px;
+  margin: 0px auto 120px;
+}
+.second-banner {
+  background-image: url("/assets/banner/banner2.png");
+}
+.night-wish-container {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
+.texts > h4 {
+  color: #fff;
+  font-family: "Merriweather Sans";
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin: 0;
+}
+.texts > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.texts > a {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* ENDED */
+
+/* EVENT INFO STYLE  */
+.info-section-perent{
+    width: 1320px;
+    height: 482px;
+    margin: 0px auto 120px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+    
+    
+}
+.flexibleInCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px;
+}
+.info-wrapper span {
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  line-height: 56px;
+}
+.text-red{
+    color: #F00;
+}
+.primary-button {
+    background: linear-gradient(to bottom, #F00, #f01); 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.6s ease ease-in-out;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+
+.primary-button:hover {
+    background: linear-gradient(to bottom, #4c0000, #7f0000);
+}
+
+ 
