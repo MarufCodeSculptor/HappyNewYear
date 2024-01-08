@@ -10,14 +10,15 @@ header {
   height: 600px;
   margin: 60px auto 120px;
   background-image: url("../assets/banner/banner.png");
-  background-blend-mode: screen;
-  background-position: center center;
+  background-blend-mode: multiply;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+  background-color: #07021182;
  
 }
 .header-container {
@@ -82,6 +83,8 @@ header {
 }
 .second-banner {
   background-image: url("../assets/banner/banner2.png");
+  background-color: #07021129;
+  background-blend-mode: multiply;
 }
 .night-wish-container {
   display: flex;
