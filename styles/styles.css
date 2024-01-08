@@ -413,10 +413,9 @@ p {
 }
 /* ----------------------ENDED-------------- */
 /* SUBSCRIBE SECTION START --------------------------------------------------------- */
-.subcribe-perent{
+.subcribe-perent {
   width: 1320px;
   margin: auto;
-
 }
 .subscribe-container {
   display: flex;
@@ -428,7 +427,6 @@ p {
   padding: 100px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .subscribe-container img {
@@ -480,17 +478,100 @@ p {
   cursor: pointer;
   color: #fff;
   text-align: center;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 20px;
   font-weight: 600;
   text-transform: capitalize;
   text-decoration: none;
-
-  
-  
-
 }
 
-footer {
-  margin: 600px;
+/*------------------footer style start here -------------------  */
+
+.container {
+  background-color: #070211;
+  color: white;
+  
 }
+.footer-info {
+  width: 1320px;
+  margin: auto;
+  padding: 100px;
+}
+.footer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.adress-p h3 {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.adress-p2 h3 {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.footer-item2 a {
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-item2 a:hover {
+  transform: scale(1.2);
+}
+
+.footer-item3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-item3 span {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+}
+.unsubscribe-button {
+  padding: 1rem 2rem;
+  color: #fff;
+  font-family: 'Inter';
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #070211;
+}
+.unsubscribe-container {
+  text-align: center;
+}
+.unsubscribe-button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.unsubscribe-button:hover {
+  background-color:red; 
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+hr{
+  border: 1px solid #798287;;
+}
+/* --------------------Finished------------------- */
+
