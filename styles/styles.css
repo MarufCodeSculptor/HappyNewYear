@@ -162,5 +162,46 @@ header {
 .primary-button:hover {
     background: linear-gradient(to bottom, #4c0000, #7f0000);
 }
+/* ENDED */
+/*-------------------------------coming sood section style-------------------- */
+.best-offer-middle-width {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.best-offer-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column02{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+
+}
+.column03{
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-image {
+  width: 365px;
+  height:365px;
+  background-color: white;
+  border: 8px solid red;
+  border-radius: 50%;
+}
 
  
