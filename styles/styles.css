@@ -327,9 +327,6 @@ p {
   max-height: 100%;
   padding: 30px;
   filter: grayscale(0%) blur(0px) brightness(100%) contrast(100%);
-  
-
-
 }
 
 .image-container {
@@ -349,4 +346,147 @@ p {
   background-size: cover;
   margin-left: -50%;
   border: 6px solid white;
+}
+/* --------------------------------GIFT SHOWCASE START HERE----------- */
+.gift-showcase-container {
+  width: 1320px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-containerX {
+  flex: 1;
+}
+.text-containerX h5 {
+  color: #f00;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  margin: 16px 0px;
+}
+
+.text-containerX h3 {
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0px;
+}
+
+.text-containerX p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.image-containerX {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.image-box {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+/* ----------------------ENDED-------------- */
+/* SUBSCRIBE SECTION START --------------------------------------------------------- */
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1320px;
+  margin: auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 100px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-container img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+.subscribe-container h4 {
+  color: #070211;
+  text-align: center;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 0;
+}
+.subscribe-container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 36px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 600px;
+}
+
+.input-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px 0 0 20px;
+  width: 70%;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.input-container a {
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-decoration: none;
+
+  
+  
+
+}
+
+footer {
+  margin: 600px;
 }
